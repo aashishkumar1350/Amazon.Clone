@@ -1,0 +1,333 @@
+*{
+    margin:0px;
+    font-family:system-ui;
+    border: border-box;  
+}
+/*first box*/
+.navbar{
+   
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.nav-logo{
+    height:50px;
+    width:110px;   
+}
+.logo{
+    height: 50px;
+    background-image:url("https://www.shutterstock.com/shutterstock/photos/2270561027/display_1500/stock-vector-amazon-logo-icon-logo-sign-art-design-symbol-famous-industry-jeff-bezos-corporate-text-isolated-2270561027.jpg");
+width:100px;
+background-size: cover;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+
+}
+/* 2nd box*/
+.nav-loc{
+    color:#cccccc;
+    font-size:0.5rem;
+    margin-left: 15px;
+}
+.loc2{
+    color:white;
+    font-size:1rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+   
+}
+  /* 3rd box */
+.nav-search{
+    display: flex;
+    width: 610px;
+    height: 35px;
+   margin-left :15px;
+    border-radius:4px;
+
+}
+
+.select{
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border:none;
+}
+.input{
+    width:570px;  
+}
+.search-icon{
+    width:40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:none;
+    background-color: goldenrod;
+   
+    align-items: center;
+    
+}
+/* 4th box */
+.nav-lang{
+    display:flex;
+    margin-left : 15px;
+}
+ /* 5th box */
+.signin{
+    width: 70px;
+    font-size: 0.7rem;
+     
+}
+.acc{
+    font-size: 0.8rem;
+    font-weight: 750;
+
+}
+ /* 6th box */
+.ret{
+    width: 70px;
+    font-size: 0.7rem;
+}
+.order{
+    font-size: 0.8rem;
+    font-weight: 750;
+
+}
+/* 7th box */
+.cart-icon{
+   width:60px;
+   height: 50px;
+}
+#a{
+    font-size:50px;
+}
+.pannel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+
+}
+.pannel-select p {
+    display: inline;
+    margin-left : 15px;
+    font-size: 14px;
+}
+.all{
+    width:58px;
+    font-weight: 750;
+    margin-left : 10px;
+}
+.body{
+    height: 350px;;
+    background-image: url("https://m.media-amazon.com/images/I/71YTsbTxBsL._SX3000_.jpg");
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+}
+.click{
+    display: flex;
+    height:40px;
+   width:85%;
+    background-color: whitesmoke;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin-left:15px;
+    margin-right:15px;
+    text-align: center;
+    margin-bottom: 30px;   
+}
+.click a{
+    color:green;
+}
+/* buy section */
+.buy{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: 480px;
+}
+.box{   
+    height:400px;
+    width: 23%;
+    background-color:white;
+    padding:20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom : 1rem;
+}
+.box-content{
+    margin-left: 14px;
+    margin-right : 14px;
+}
+.shop{
+    text-decoration: none;
+}
+.shop:hover{
+    color:orangered;
+}
+/* rough */
+
+
+/* footer sign */
+.sign-foot{  
+    height:  110px;
+    justify-content: center;
+    align-items: center;  
+}
+.sign-text p{
+    font-size: 13px;
+    color:#000000;
+    height: 15px;
+    width: 1215px;   
+}
+.sign-foot button{
+    height : 28px;
+    width :230px;
+    background-color: rgb(236, 161, 11);
+    font-weight: 500;
+}
+#button-upper{
+    font-size : 13px;
+}
+
+.content{
+    text-align: center;
+    margin-top : 70px; 
+    margin-bottom : 50px;
+    border : 1px solid gainsboro;   
+}
+.content a{
+    font-size : 13px;
+}
+/* footer pannel start  */
+
+.footer-pannel{
+    height : 50px;
+    background-color: #37475a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color : white;
+}
+/* second pannel */
+.foot-main-pannel {
+    
+    height : 350px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content:  space-evenly;
+    border-bottom: 0.3px solid gainsboro;
+    
+    color:#cccccc;
+}
+ul a{
+    display : block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+ul p{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 13px;
+}
+/* next main 3rd pannel */ 
+.next-main-pannel{
+    height: 70px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.amazon{
+    background-image: url("https://i.pinimg.com/originals/cb/66/8c/cb668cd9b0bf1220046193aa966a19cc.jpg");
+    height : 25px;
+    width : 76px;
+    background-size : cover;
+    
+}
+.eng{
+    height : 34px;
+    width : 116px;
+    color : #cccccc;
+    font-size: 13px;
+    margin : 0px 4px 0px 0px ;
+    padding: 6px 18px 6px 8px ;
+    border : 1px solid white;
+    border-radius : 5px;
+    background-color: #222f3d;
+}
+.us{
+    height : 34px;
+    width : 116px;
+    color : #cccccc;
+    font-size: 13px;
+    margin : 0px 4px 0px 0px ;
+    padding: 6px 18px 6px 8px ;
+    border : 1px solid white;
+    border-radius : 5px;
+    background-color: #222f3d;
+}
+/* last pannel is  start 4th */
+.last-pannel{
+    height : 250px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: center;
+
+}
+.last-pannel ul{
+    font-size: 12px;
+    color : #cccccc;
+    margin-top : 30px;
+}
+.last{
+    font-weight: 500;
+}
+/* 5th pannel*/
+.foot{
+    height : 70px;
+    background-color :#0f1111;   
+}
+.end {
+    color :#cccccc;
+    font-size : 12px;
+    padding-left: 7px;
+    text-align: center;
+}
+.span{ 
+    font-size: 12px;
+    color :#cccccc;
+    text-align : center;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
